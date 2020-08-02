@@ -68,7 +68,7 @@ new Vue({
 					this.errors = [];
 					$('#edit').modal('hide');
 					toastr.success('Tarea actualizada con éxito');
-				}).catch(erro => {
+				}).catch(error => {
 					this.errors = error.response.data
 				});
 			},
